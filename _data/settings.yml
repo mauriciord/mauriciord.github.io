@@ -12,9 +12,9 @@ disqus:
 google-ID: 'UA-80213386-1'
 
 menu:
-- {name: 'Sobre', url: 'about.html'}
-- {name: 'Posts', url: 'writing.html'}
-- {name: 'Quem sou', url: 'contact.html'}
+- {name: 'Sobre', url: 'about'}
+- {name: 'Posts', url: 'writing'}
+- {name: 'O que faço', url: 'resume'}
 
 social:
 - {icon: 'github', link: 'https://www.github.com/mauriciord'}
