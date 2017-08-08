@@ -1,0 +1,26 @@
+title:  Mauricio R Duarte
+tagline:  um desenvolvedor Fron-End que deseja mudar as rotinas
+author:
+  name: 'Maurício R. Duarte'
+  twitter:  mauriciord
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'https-lenpaul-github-io-lagrange'
+
+google-ID: 'UA-80213386-1'
+
+menu:
+- {name: 'Sobre', url: 'about.html'}
+- {name: 'Posts', url: 'writing.html'}
+- {name: 'Quem sou', url: 'contact.html'}
+
+social:
+- {icon: 'github', link: 'https://www.github.com/mauriciord'}
+- {icon: 'twitter', link: 'https://twitter.com/mauriciord'}
+- {icon: 'instagram', link: 'https://instagram.com/mmauriciord'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/mauriciord/'}
+- {icon: 'envelope', link: 'mailto:mauriciotem@gmail.com'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
