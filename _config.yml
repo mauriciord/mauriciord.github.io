@@ -1,6 +1,7 @@
 # Site Settings
 baseurl: ""
 url: "https://mauriciord.com.br"
+github.url: "https://mauriciord.com.br"
 paginate:            5
 
 # Build settings
