@@ -20,7 +20,7 @@ const messages = {
  */
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
-  return cp.spawn('jekyll', ['build'], { stdio: 'inherit' })
+  return cp.spawn('jekyll', ['build', '--drafts'], { stdio: 'inherit' })
     .on('close', done);
 });
 
@@ -68,7 +68,7 @@ gulp.task('imagemin', function () {
 gulp.task('watch', function () {
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
-  gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_drafts/*'], ['jekyll-rebuild']);
 });
 
 // gulp.task('default', ['js', 'stylus', 'imagemin', 'browser-sync', 'watch']);
