@@ -21,15 +21,15 @@ title: Home
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Older</a>
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Antigos</a>
   {% else %}
-    <span class="pagination-button">Older</span>
+    <span class="pagination-button">Antigos</span>
   {% endif %}
 
   {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Newer</a>
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Novos</a>
     {% else %}
-      <span class="pagination-button">Newer</span>
+      <span class="pagination-button">Novos</span>
   {% endif %}
 
 </div>
